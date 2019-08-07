@@ -28,5 +28,15 @@
 }
 /* Header */
 .logo{
-	background-image: url(img/world_wine_meetings_logo.png);
+	background-image: url(img/world_wine_meetings_logo@2x.png);
+	background-size: 293px 120px;
+}
+
+.site-banner .gsf-trigger .icon-search {
+	background-image: url(img/loupe@2x.png);
+	background-size: 17px 18px;
+}
+.site-banner .gsf-trigger .icon-search:hover {
+	background-image: url(img/loupe_on@2x.png);
+	background-size: 17px 18px;
 }
