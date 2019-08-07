@@ -50,7 +50,7 @@
 }
 
 /* agenda */
-.agenda_left_column{
+#agenda .plus{
 	background-image: url(img/world_wine_meetings_plus@2x.png);
 	background-size: 32px 32px;
 }
