@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence */
 
+.logo{
+	background-image: url(img/world_wine_meetings_logo.png);
+}
