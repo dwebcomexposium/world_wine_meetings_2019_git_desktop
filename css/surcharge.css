@@ -26,6 +26,14 @@
     font-family: 'Roboto-Bold-Italic';
     src: url('fonts/Roboto/Roboto-BoldItalic.ttf')  format("truetype");
 }
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto/Roboto-Light.ttf')  format("truetype");
+}
+@font-face {
+    font-family: 'Roboto-Light-Italic';
+    src: url('fonts/Roboto/Roboto-LightItalic.ttf')  format("truetype");
+}
 /* Header */
 .logo{
 	background-image: url(img/world_wine_meetings_logo@2x.png);
