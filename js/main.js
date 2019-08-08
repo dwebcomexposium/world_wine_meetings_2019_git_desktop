@@ -14,11 +14,11 @@ function isScrolledIntoView(elem) {
 function testScroll() {
   if (isScrolledIntoView($("#chiffres")) && !viewed) {
       viewed = true;
-      $('.chiffres').each(function () {
+      $('.compteur').each(function () {
       $(this).prop('Counter',0).animate({
           Counter: $(this).text()
       }, {
-          duration: 4000,
+          duration: 3000,
           easing: 'swing',
           step: function (now) {
               $(this).text(Math.ceil(now));
