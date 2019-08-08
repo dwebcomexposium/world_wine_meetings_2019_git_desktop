@@ -80,3 +80,10 @@
 .contact .cl-item .cl-item-illust:nth-child(4){
 	background-image: url(img/globe_shangai@2x.png);
 }
+/* About */
+.node1235883 table tr:first-child td:first-child{
+	background-image: url(img/about_1.png);
+}
+.node1235883 table tr:last-child td:last-child{
+	background-image: url(img/about_2.png);
+}
