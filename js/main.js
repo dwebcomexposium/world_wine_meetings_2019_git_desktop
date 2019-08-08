@@ -1,12 +1,27 @@
-var el = document.querySelector('#chiffres1');
+$(window).scroll(testScroll);
+var viewed = false;
 
-od = new Odometer({
-  el: el,
-  value: 0,
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
 
-  // Any option (other than auto and selector) can be passed in here
-  format: '',
-  theme: 'minimal'
-});
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
 
-od.update(123)
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function testScroll() {
+  if (isScrolledIntoView($("#chiffres")) && !viewed) {
+      viewed = true;
+      $('.chiffres').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(Math.ceil(now));
+          }
+      });
+    });
