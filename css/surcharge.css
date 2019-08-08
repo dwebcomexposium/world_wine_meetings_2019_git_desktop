@@ -66,3 +66,17 @@
 .globe_shangai{
 	background-image: url(img/globe_shangai@2x.png);
 }
+
+/* contact */
+.contact .cl-item .div:nth-child(1){
+	background-image: url(img/globe_paris@2x.png);
+}
+.contact .cl-item .div:nth-child(2){
+	background-image: url(img/globe_chicago@2x.png);
+}
+.contact .cl-item .div:nth-child(3){
+	background-image: url(img/globe_san_francisco@2x.png);
+}
+.contact .cl-item .div:nth-child(4){
+	background-image: url(img/globe_shangai@2x.png);
+}
