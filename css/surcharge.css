@@ -198,7 +198,10 @@
 	background-image: url(img/world_wine_meetings_global.png);
 	
 }
-
+.node1235852 .article-focus:nth-child(1) .af-title {
+	background-image: url(img/world_wine_meetings_global.png);
+	
+}
 
 /* agenda */
 #agenda .plus {
