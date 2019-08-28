@@ -189,7 +189,14 @@
 /* FIN FOOTER */
 /* HOME */
 .front .article-focus:nth-child(1) p:nth-of-type(1) {
+	width: 50%;
+	float: left;
+	content: " ";
+	height: 353px;
+}
+.front .article-focus:nth-child(1) .af-title {
 	background-image: url(img/world_wine_meetings_global.png);
+	
 }
 
 
