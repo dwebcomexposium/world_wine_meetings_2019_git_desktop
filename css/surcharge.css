@@ -187,6 +187,12 @@
 	border-right: none;
 }
 /* FIN FOOTER */
+/* HOME */
+.front .article-focus:nth-child(1) {
+	background-image: url(img/world_wine_meetings_global@2x.png);
+	background-size: 892px 353px;
+}
+
 
 /* agenda */
 #agenda .plus {
