@@ -188,9 +188,8 @@
 }
 /* FIN FOOTER */
 /* HOME */
-.front .article-focus:nth-child(1) {
+.front .article-focus:nth-child(1) p:nth-of-type(1) {
 	background-image: url(img/world_wine_meetings_global.png);
-	
 }
 
 
