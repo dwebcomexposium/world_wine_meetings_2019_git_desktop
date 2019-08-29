@@ -1,7 +1,9 @@
 /* CHIFFRES */
+$(function() {
+	$(window).scroll(testScroll);
+	var viewed = false;
 
-$(window).scroll(testScroll);
-var viewed = false;
+});
 
 function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
