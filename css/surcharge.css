@@ -400,3 +400,9 @@ body {
 	margin-top: 15px;
 }
 /* FIN 404 */
+/* SEARCHE RESULT */
+.search-result .gsf-submit-btn {
+	background-image: url(img/loupe_on@2x.png);
+
+}
+/* FIN SEARCHE RESULT */
