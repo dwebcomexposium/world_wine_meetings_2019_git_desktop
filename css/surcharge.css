@@ -41,7 +41,73 @@
 	font-family: 'Roboto-Light-Italic';
 	src: url('fonts/Roboto/Roboto-LightItalic.ttf') format("truetype");
 }
-/* Header */
+/* GENERAL */
+body {
+	background-color: white;
+}
+
+.site-banner .inside, .header-navigation .inside, .site-footer .inside {
+	max-width: none;
+}
+
+.wrapper, .site-wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+
+.site-wrapper {
+	margin-bottom: 0px;
+	background: white;
+	box-shadow: 0 0 0;
+	padding: 0px;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border: none;
+}
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+	color: #ffffff;
+	background-color: transparent;
+	border: none;
+}
+/* GENERAL */
+/* SOCIAL BAR */
+#social_bar{
+	width: 35px;
+	height: 140px;
+	background-color: #1A1A1A;
+	z-index: 10;
+	position: fixed;
+	top: 220px;
+	right: 30px;
+}
+#social_linkedin{
+	background-size: 18px 18px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 40px;
+	width: 100%;
+	cursor: pointer;
+}
+#social_newsletter {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	
+}
+#social_newsletter a{
+	font-size: 12px;
+	line-height: 35px;
+	font-family: Roboto;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+
+}
+
+/* FIN SOCIAL BAR */
+/* HEADER */
 .logo {
 	background-image: url(img/world_wine_meetings_logo@2x.png);
 	background-size: 293px 120px;
@@ -58,7 +124,6 @@
 	
 }
 
-/* HEADER */
 .site-banner {
 	background-color: #1A1A1A;
 }
