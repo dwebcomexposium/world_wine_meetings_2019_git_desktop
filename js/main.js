@@ -53,6 +53,8 @@ $(function() {
 /* Bandeau social */ 
 
 $(function() {
+	var out = '<div id="social_bar"><div id="social_linkedin"></div><div id="social_newsletter"><a href="#" title="Inscription newsletter">NEWSLETTER</a></div></div>';
+	$( out ).appendTo( "body" );
 	$( "#social_linkedin" ).click(function() {
 		var let = "http://www.linkedin.com";
 		window.open(url, '_blank');
