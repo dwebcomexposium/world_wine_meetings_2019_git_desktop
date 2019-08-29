@@ -44,6 +44,7 @@
 /* GENERAL */
 body {
 	background-color: white;
+	font-family: 'Roboto';
 }
 
 .site-banner .inside, .header-navigation .inside, .site-footer .inside {
