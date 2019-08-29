@@ -37,6 +37,19 @@ $(function() {
 
 /* FIN CHIFFRES */
 
+/* PARALLAX */
+$(function() {
+    var $el = $('.front .article-focus:nth-child(1)');
+    $(window).on('scroll', function () {
+        var scroll = $(document).scrollTop();
+        $el.css({
+            'background-position':'50% '+(-.4*scroll)+'px'
+        });
+    });
+});
+/* FIN PARALLAX */
+
+
 /* Bandeau social */ 
 
 $(function() {
