@@ -48,3 +48,59 @@ $(function() {
 
 
 /* fin Bandeau social */
+
+/* STICKY HEADER */
+$(document).ready(function() {
+	/*====================================*/
+	/*=========== Bloc Sticky ============*/
+	/*====================================*/
+	var options = {
+		stickyBlock : ".site-banner", // bloc cible à rendre "sticky"
+		stickyBlockClass : "sticky-box", // classe du bloc cible à rendre "sticky"
+		stickyClass : "is-sticky", // classe qui active le mode "sticky" selon le niveau de scroll
+		stickyEvents : "load scroll", // Ne doit pas être modifié en théorie !
+		stickyActiveCSS : {
+			"position":"fixed", // Position "fixed" pour le mode Sticky. Ne pas modifier !
+			"width":"100%", // Recommandé de fixer la largeur à 100% pour ne pas avoir de bug
+			"z-index":9999, // Recommandé de fixer un fort z-index pour passer au-dessus des contenus
+			"top":0 // Optionnel : permet ici de coller le bloc Sticky en haut du viewport
+		},
+	};
+
+	// On encadre le bloc ciblé par une DIV nécessaire pour faire l'effet sticky
+	$(options.stickyBlock).wrap('<div class="'+options.stickyBlockClass+'"></div>');
+
+	// On prend les dimensions par défaut du bloc (hauteur dynamique)
+	var heightSticky = Math.round($(options.stickyBlock).outerHeight());
+
+	$(window).on(options.stickyEvents, function() {
+		// Récupération de la hauteur dynamiquement à chaque scroll (pour voir si elle change...)
+		if(heightSticky > Math.round($(options.stickyBlock).outerHeight())) {
+			var newHeightSticky = Math.round($(options.stickyBlock).outerHeight()); // Hauteur de l'entête
+		}
+
+		// Si on scroll au niveau du bloc sticky
+		if($(window).scrollTop() > 0) {
+			// Ajout de la classe d'activation du mode Sticky
+			$("."+options.stickyBlockClass).addClass(options.stickyClass);
+
+			// Récupération de la hauteur du bloc (utile si cette dernière change !)
+			$("."+options.stickyBlockClass).height(newHeightSticky);
+
+			// Application du style par défaut pour le bloc "sticky"
+			$("."+options.stickyClass+" "+options.stickyBlock).css(options.stickyActiveCSS);
+		}
+		else // Si on est retourné au niveau le plus haut (donc plus de mode Sticky)
+		{
+			// Suppression de la class d'activation du mode Sticky
+			$("."+options.stickyBlockClass).removeClass(options.stickyClass);
+
+			// Récupération de la hauteur initiale (par défaut) du bloc "sticky"
+			$("."+options.stickyBlockClass).height(heightSticky);
+
+			// Suppression du style spécifique actif pour le mode Sticky
+			$("."+options.stickyBlockClass+" "+options.stickyBlock).removeAttr('style');
+		}
+	});
+});
+/* STICKY HEADER */
