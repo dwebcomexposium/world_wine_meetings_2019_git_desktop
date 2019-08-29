@@ -265,7 +265,9 @@ body {
 .disclaimer {
 	padding-bottom: 20px;
 }
-
+.site-footer .quicklinks ul{
+	padding-bottom: 0px;
+}
 /* FIN FOOTER */
 /* HOME */
 .front .article-focus:nth-child(1) p:nth-of-type(1) {
