@@ -388,7 +388,15 @@ body {
 	background-repeat: no-repeat;
 	width: 50px;
 }
+.error-page .gsf-submit-text{
+	display: none;
+}
 .error-page .ep-form-wrap{
 	margin-top: 50px;
+}
+
+.error-page .tt-dropdown-menu{
+	top: auto;
+	margin-top: 15px;
 }
 /* FIN 404 */
