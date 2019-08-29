@@ -1,7 +1,6 @@
 /* CHIFFRES */
 $(function() {
 	if ( $( "#chiffres" ).length ) {
-		console.log("sssssssssssss");
 		$(window).scroll(testScroll);
 	}	
 	var viewed = false;
