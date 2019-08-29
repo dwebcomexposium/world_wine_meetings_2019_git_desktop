@@ -382,9 +382,11 @@ body {
 	margin-top: 7px;
 	margin-bottom: auto;
 	border-left: 1px solid black;
-	background-image: url(img/loupe@2x.png);
+	background-image: url(img/loupe_on@2x.png);
 	background-size: 17px 18px;
 	background-position: center center;
+	background-repeat: no-repeat;
+	width: 50px;
 }
 .error-page .ep-form-wrap{
 	margin-top: 50px;
