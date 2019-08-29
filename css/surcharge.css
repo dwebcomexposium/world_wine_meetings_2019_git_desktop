@@ -76,6 +76,9 @@ body {
 .site-banner .gsf-submit-btn{
 	background-image: url(img/rond-search.png);
 }
+.site-banner .gsf-submit-btn:hover{
+	background-image: url(img/rond-search.png);
+}
 /* GENERAL */
 /* SOCIAL BAR */
 #social_bar{
