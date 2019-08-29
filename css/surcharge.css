@@ -73,7 +73,9 @@ body {
 	background-color: transparent;
 	border: none;
 }
-
+.site-banner .gsf-submit-text{
+	background-image: url(img/rond-search.png);
+}
 /* GENERAL */
 /* SOCIAL BAR */
 #social_bar{
