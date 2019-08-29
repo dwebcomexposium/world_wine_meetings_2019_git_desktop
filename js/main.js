@@ -1,6 +1,9 @@
 /* CHIFFRES */
 $(function() {
-	$(window).scroll(testScroll);
+	if ( $( "#chiffres" ).length ) {
+		console.log("sssssssssssss");
+		$(window).scroll(testScroll);
+	}	
 	var viewed = false;
 
 	function isScrolledIntoView(elem) {
