@@ -329,4 +329,60 @@ body {
 	background-image: url(img/globe_paris@2x.png);
 }
 
-
+/* 404 */
+.error404 #main {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.error-page{
+	min-height: 500px;
+}
+.error-page .main-title{
+	font-family: Roboto-Black;
+	font-size: 118px;
+	font-weight: normal;
+	text-align: center;
+	color: black;
+	line-height: 118px;
+	padding-top: 80px;
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+.error-page h2 {
+	color: black;
+	font-size: 16px;
+	font-family: Roboto;
+	font-weight: normal;
+	text-align: center;
+	border: none;
+	margin: 0px;
+	/* padding: 0px; */
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.error-page .gsf-fields{
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	height: 46px;
+}
+.error-page .gsf-input {
+	color: black;
+	width: 100%;
+	border: none;
+}
+.error-page.gsf-submit-btn {
+	height: 30px;
+	min-height: 30px;
+	background-color: white;
+	color: black;
+	margin-top: 7px;
+	margin-bottom: auto;
+	border-left: 1px solid black;
+	background-image: url(img/loupe@2x.png);
+	background-size: 17px 18px;
+	background-position: center center;
+}
+/* FIN 404 */
