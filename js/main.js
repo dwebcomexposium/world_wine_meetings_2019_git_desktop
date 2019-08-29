@@ -37,7 +37,7 @@ function testScroll() {
 /* Bandeau social */ 
 
 $(function() {
-	var out = '<div id="social_bar"><div id="social_linkedin"></div><div id="social_newsletter">NEWSLETTER</div></div>';
+	var out = '<div id="social_bar"><div id="social_linkedin"></div><div id="social_newsletter"><a href="#" title="Inscription newsletter">NEWSLETTER</a></div></div>';
 	$( out ).appendTo( "body" );
 });
 
