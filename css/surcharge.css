@@ -262,6 +262,10 @@ body {
 .site-footer .quicklinks li:last-child  .btn-primary {
 	border-right: none;
 }
+.disclaimer {
+	padding-bottom: 20px;
+}
+
 /* FIN FOOTER */
 /* HOME */
 .front .article-focus:nth-child(1) p:nth-of-type(1) {
