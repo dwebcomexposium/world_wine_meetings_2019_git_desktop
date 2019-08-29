@@ -43,7 +43,7 @@ $(function() {
     $(window).on('scroll', function () {
         var scroll = $(document).scrollTop();
         $el.css({
-            'background-position':'50% '+(-.4*scroll)+'px'
+            'background-position':(-.4*scroll)+'px'+' 50% '
         });
     });
 });
