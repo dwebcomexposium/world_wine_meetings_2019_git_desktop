@@ -1,3 +1,5 @@
+/* CHIFFRES */
+
 $(window).scroll(testScroll);
 var viewed = false;
 
@@ -27,3 +29,15 @@ function testScroll() {
     });
   }
 }
+
+/* FIN CHIFFRES */
+
+/* Bandeau social */ 
+
+$(function() {
+	var out = '<div id="social_bar"><div id="social_linkedin"></div><div id="social_newsletter">NEWSLETTER</div></div>';
+	$( out ).appendTo( "body" );
+});
+
+
+/* fin Bandeau social */
