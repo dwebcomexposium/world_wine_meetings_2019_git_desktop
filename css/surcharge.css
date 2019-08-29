@@ -373,7 +373,7 @@ body {
 	width: 100%;
 	border: none;
 }
-.error-page.gsf-submit-btn {
+.error-page .gsf-submit-btn {
 	height: 30px;
 	min-height: 30px;
 	background-color: white;
@@ -384,5 +384,8 @@ body {
 	background-image: url(img/loupe@2x.png);
 	background-size: 17px 18px;
 	background-position: center center;
+}
+.error-page .ep-form-wrap{
+	margin-top: 50px;
 }
 /* FIN 404 */
