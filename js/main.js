@@ -106,3 +106,9 @@ $(document).ready(function() {
 	});
 });
 /* STICKY HEADER */
+
+/* Burger Menu */
+$(function() {
+	var out = '<div id="burger"><div></div><div></div><div></div></div>';
+	$( out ).appendTo( "body" );
+});
