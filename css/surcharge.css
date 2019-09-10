@@ -73,15 +73,16 @@ body {
 	background-color: transparent;
 	border: none;
 }
-.site-banner .gsf-submit-btn{
+
+.site-banner .gsf-submit-btn {
 	background-image: url(img/rond-search.png);
 }
-.site-banner .gsf-submit-btn:hover{
+
+.site-banner .gsf-submit-btn:hover {
 	background-image: url(img/rond-search.png);
 }
 
 /* FIN GENERAL */
-
 
 /* HEADER */
 .logo {
@@ -178,6 +179,7 @@ body {
 	height: 18px;
 	display: inline-block;
 }
+
 .site-banner .inside div:nth-child(3) {
 	padding-top: 20px;
 }
@@ -243,23 +245,46 @@ body {
 .is-sticky  .site-banner .inside div:nth-child(2) {
 	padding-top: 18px;
 }
+
 .site-banner .gsf-fields .typeahead-section-name {
 	color: black;
 	font-family: Roboto;
 	border: none;
 }
-.tt-suggestion{
+
+.tt-suggestion {
 	clear: both;
-	padding-top: 0px!important;
+	padding-top: 0px !important;
 }
-.tt-suggestion a:hover, .tt-suggestion a:active, .tt-suggestion a:focus{
+
+.tt-suggestion a:hover, .tt-suggestion a:active, .tt-suggestion a:focus
+	{
 	background-color: transparent;
 	color: inherit;
 }
 /* FIN HEADER */
 
-
 /* HOME */
+.front .article-focus:nth-child(1) p:nth-of-type(1) {
+	width: 50%;
+	float: left;
+	content: " ";
+	height: 353px;
+}
+
+.front .article-focus:nth-child(1) .af-title {
+	background-image: url(img/world_wine_meetings_global.png);
+}
+
+.node1235852 .article-focus:nth-child(1) .af-title {
+	background-image: url(img/world_wine_meetings_global.png);
+}
+
+.front .article-focus:nth-child(1), .node1235852 .article-focus:nth-child(1)
+	{
+	background-image: url(img/background_home.jpg);
+}
+
 .front .article-focus * {
 	max-width: 1080px;
 	margin-left: auto;
@@ -523,6 +548,8 @@ body {
 }
 
 #agenda .plus {
+	background-image: url(img/world_wine_meetings_plus@2x.png);
+	background-size: 32px 32px;
 	width: 32px;
 	height: 32px;
 	background-size: 32px 32px;
@@ -537,23 +564,26 @@ body {
 }
 
 .globe_paris {
+	background-image: url(img/globe_paris@2x.png);
 	background-size: 224px 225px;
 }
 
 .globe_chicago {
+	background-image: url(img/globe_chicago@2x.png);
 	background-size: 226px 230px;
 }
 
 .globe_san_francisco {
+	background-image: url(img/globe_san_francisco@2x.png);
 	background-size: 237px 226px;
 }
 
 .globe_shangai {
+	background-image: url(img/globe_shangai@2x.png);
 	background-size: 225px 225px;
 }
 /* bloc 3 agenda */
 /* FIN HOME */
-
 
 /* GLOBAL */
 /* bloc 1 */
@@ -585,6 +615,7 @@ body {
 	padding-left: 32px;
 	padding-right: 32px;
 }
+
 .node1235852 .article-focus:nth-child(2) p:nth-of-type(1) {
 	background-image: url(img/globe_paris@2x.png);
 	width: 34%;
@@ -840,7 +871,7 @@ body {
 /* FIN ARTICLE */
 
 /* SOCIAL BAR */
-#social_bar{
+#social_bar {
 	width: 35px;
 	height: 140px;
 	background-color: #1A1A1A;
@@ -849,7 +880,8 @@ body {
 	top: 220px;
 	right: 30px;
 }
-#social_linkedin{
+
+#social_linkedin {
 	background-size: 18px 18px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -857,19 +889,19 @@ body {
 	width: 100%;
 	cursor: pointer;
 }
+
 #social_newsletter {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
-	
 }
-#social_newsletter a{
+
+#social_newsletter a {
 	font-size: 12px;
 	line-height: 35px;
 	font-family: Roboto;
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
-
 }
 
 /* FIN SOCIAL BAR */
@@ -877,7 +909,7 @@ body {
 
 /* FIN HEADER */
 /*SOCIAL*/
-#social_linkedin{
+#social_linkedin {
 	background-image: url(img/social-linkedin.png);
 }
 /* FOOTER */
@@ -929,55 +961,16 @@ body {
 .site-footer .quicklinks li:last-child  .btn-primary {
 	border-right: none;
 }
+
 .disclaimer {
 	padding-bottom: 20px;
 }
-.site-footer .quicklinks ul{
+
+.site-footer .quicklinks ul {
 	padding-bottom: 0px;
 }
 /* FIN FOOTER */
-/* HOME */
-.front .article-focus:nth-child(1) p:nth-of-type(1) {
-	width: 50%;
-	float: left;
-	content: " ";
-	height: 353px;
-}
-.front .article-focus:nth-child(1) .af-title {
-	background-image: url(img/world_wine_meetings_global.png);
-	
-}
-.node1235852 .article-focus:nth-child(1) .af-title {
-	background-image: url(img/world_wine_meetings_global.png);
-	
-}
-.front .article-focus:nth-child(1), .node1235852 .article-focus:nth-child(1) {
-	background-image: url(img/background_home.jpg);
-	
-}
 
-
-/* agenda */
-#agenda .plus {
-	background-image: url(img/world_wine_meetings_plus@2x.png);
-	background-size: 32px 32px;
-}
-
-.globe_paris {
-	background-image: url(img/globe_paris@2x.png);
-}
-
-.globe_chicago {
-	background-image: url(img/globe_chicago@2x.png);
-}
-
-.globe_san_francisco {
-	background-image: url(img/globe_san_francisco@2x.png);
-}
-
-.globe_shangai {
-	background-image: url(img/globe_shangai@2x.png);
-}
 
 /* contact */
 .contact .cl-item .cl-item-illust:nth-child(1) {
@@ -996,18 +989,18 @@ body {
 	background-image: url(img/globe_shangai@2x.png);
 }
 
-
-
 /* 404 */
 .error404 #main {
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.error-page{
+
+.error-page {
 	min-height: 500px;
 }
-.error-page .main-title{
+
+.error-page .main-title {
 	font-family: Roboto-Black;
 	font-size: 118px;
 	font-weight: normal;
@@ -1019,6 +1012,7 @@ body {
 	margin-bottom: 0px;
 	padding-bottom: 20px;
 }
+
 .error-page h2 {
 	color: black;
 	font-size: 16px;
@@ -1031,17 +1025,20 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-.error-page .gsf-fields{
+
+.error-page .gsf-fields {
 	padding: 0px;
 	border: 1px solid black;
 	background-color: white;
 	height: 46px;
 }
+
 .error-page .gsf-input {
 	color: black;
 	width: 100%;
 	border: none;
 }
+
 .error-page .gsf-submit-btn {
 	height: 30px;
 	min-height: 30px;
@@ -1056,14 +1053,16 @@ body {
 	background-repeat: no-repeat;
 	width: 50px;
 }
-.error-page .gsf-submit-text{
+
+.error-page .gsf-submit-text {
 	display: none;
 }
-.error-page .ep-form-wrap{
+
+.error-page .ep-form-wrap {
 	margin-top: 50px;
 }
 
-.error-page .tt-dropdown-menu{
+.error-page .tt-dropdown-menu {
 	top: auto;
 	margin-top: 15px;
 }
@@ -1071,7 +1070,6 @@ body {
 /* SEARCH RESULT */
 .search-result .gsf-submit-btn {
 	background-image: url(img/loupe_on@2x.png);
-
 }
 /* FIN SEARCH RESULT */
 
@@ -1080,6 +1078,6 @@ body {
 	background-image: url(img/rond-search.png);
 }
 
-#mobile_menu .gsf-submit-line{
+#mobile_menu .gsf-submit-line {
 	background-image: url(img/loupe_on@2x.png);
 }
