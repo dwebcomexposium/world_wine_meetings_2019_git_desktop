@@ -1134,7 +1134,116 @@ a:hover {
 	display: none;
 }
 /* FIN ARTICLE */
+/* CONTACT */
+.contact a, .contact a:hover {
+	color: white;
+}
 
+.contact h1 {
+	font-family: Roboto-Black;
+	font-size: 34px;
+	color: black;
+	border: none;
+	font-weight: normal;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 34px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 0px;
+}
+
+.contact .cl-item {
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #102127;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 0px;
+}
+
+.contact .cl-item>* {
+	display: block;
+}
+
+.contact .cl-item-illust, .contact .cl-item-content {
+	min-width: 316px;
+	width: 50%;
+	min-height: 320px;
+	padding-top: 50px;
+}
+
+
+.contact .cl-item-illust {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.contact .cl-item .cl-item-illust:nth-child(1) {
+	background-image: url(img/globe_paris@2x.png);
+	background-size: 224px 225px;
+}
+
+.contact .cl-item .cl-item-illust:nth-child(2) {
+	background-image: url(img/globe_chicago@2x.png);
+	background-size: 226px 230px;
+}
+
+.contact .cl-item .cl-item-illust:nth-child(3) {
+	background-image: url(img/globe_san_francisco@2x.png);
+	background-size: 237px 226px;
+}
+
+.contact .cl-item .cl-item-illust:nth-child(4) {
+	background-image: url(img/globe_shangai@2x.png);
+	background-size: 225px 225px;
+}
+
+.contact h2 {
+	display: none;
+}
+
+.contact .cl-item-title {
+	font-family: Roboto-Bold;
+	font-size: 15px;
+	line-height: 24px;
+	color: white;
+	font-weight: normal;
+}
+
+.contact .cl-item-subtitle {
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+	color: white;
+	margin-top: 0px;
+}
+
+ .contact .cl-item-email, .contact .cl-item-phone{
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+	color: white;
+	margin-top: 0px;
+}
+.cl-item-address{
+border-top: 1px solid #A28B42;
+	border-bottom: 1px solid #A28B42;
+	font-family: Roboto-Black;
+	font-size: 19px;
+	line-height: 38px;
+	color: #A28B42;
+	max-width: 316px;
+	margin-bottom: 13px;
+}
+.flag-icon-fr {
+	display: none;
+}
+/* FIN CONTACT */
 /* SEARCH RESULT */
 .search #main {
 	max-width: 1080px;
@@ -1372,23 +1481,6 @@ a:hover {
 }
 /* FIN FOOTER */
 
-
-/* contact */
-.contact .cl-item .cl-item-illust:nth-child(1) {
-	background-image: url(img/globe_paris@2x.png);
-}
-
-.contact .cl-item .cl-item-illust:nth-child(2) {
-	background-image: url(img/globe_chicago@2x.png);
-}
-
-.contact .cl-item .cl-item-illust:nth-child(3) {
-	background-image: url(img/globe_san_francisco@2x.png);
-}
-
-.contact .cl-item .cl-item-illust:nth-child(4) {
-	background-image: url(img/globe_shangai@2x.png);
-}
 
 /* 404 */
 .error404 #main {
