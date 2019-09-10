@@ -14,7 +14,7 @@ $(function() {
 	
 	$( ".global-search-form" ).clone().appendTo( "#mobile_menu" );
 	
-	$( "#mobile_menu .ql-list:nth-child(1) " ).after( '<div class="mobile_menu_sep"></div>' );
+	$( "#mobile_menu .ql-list" ).after( '<div class="mobile_menu_sep"></div>' );
 	
 	/* action */
 	$("#burger").click(function() {
