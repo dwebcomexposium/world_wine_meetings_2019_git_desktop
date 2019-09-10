@@ -86,7 +86,8 @@ $(document).ready(function() {
 	$(options.stickyBlock).wrap('<div class="'+options.stickyBlockClass+'"></div>');
 
 	// On prend les dimensions par défaut du bloc (hauteur dynamique)
-	var heightSticky = Math.round($(options.stickyBlock).outerHeight());
+	//var heightSticky = Math.round($(options.stickyBlock).outerHeight());
+	var heightSticky = 120;
 
 	$(window).on(options.stickyEvents, function() {
 		// Récupération de la hauteur dynamiquement à chaque scroll (pour voir si elle change...)
