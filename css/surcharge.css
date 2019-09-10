@@ -535,10 +535,6 @@ a:hover {
 	background-image: url(img/world_wine_meetings_global.png);
 }
 
-.front .article-focus:nth-child(1), .node1235852 .article-focus:nth-child(1)
-	{
-	background-image: url(img/background_home.jpg);
-}
 
 .front .article-focus * {
 	max-width: 1080px;
@@ -546,8 +542,8 @@ a:hover {
 	margin-right: auto;
 }
 /*bloc 1 + global */
-.front .article-focus:nth-child(1), .node1235852 .article-focus:nth-child(1)
-	{
+.front .article-focus:nth-child(1), .node1235852 .article-focus:nth-child(1){
+	background-image: url(img/background_home.jpg);
 	background-color: #3e3c3d;
 	padding-top: 85px;
 	padding-left: 0px;
