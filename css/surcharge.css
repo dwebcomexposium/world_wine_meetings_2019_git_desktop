@@ -424,3 +424,7 @@ body {
 #mobile_menu .gsf-submit-btn {
 	background-image: url(img/rond-search.png);
 }
+
+#mobile_menu .gsf-submit-line{
+	background-image: url(img/loupe_on@2x.png);
+}
