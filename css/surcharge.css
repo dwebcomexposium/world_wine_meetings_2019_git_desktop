@@ -132,6 +132,10 @@ a:hover {
 	border: none;
 }
 
+.article-focus{
+	border: none;
+}
+
 .block-page {
 	/*max-width: 1144px;*/
 	padding: 32px;
@@ -310,6 +314,11 @@ a:hover {
 }
 
 .site-banner .gsf-submit-btn:hover {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.site-banner .gsf-submit-btn:active {
 	background-color: white;
 	background-repeat: no-repeat;
 	background-position: center;
