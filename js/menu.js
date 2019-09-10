@@ -12,7 +12,7 @@ $(function() {
 	
 	$( ".site-footer .quicklinks .ql-list" ).clone().appendTo( "#mobile_menu" );
 	
-	$( ".global-search-form .quicklinks .ql-list" ).clone().appendTo( "#mobile_menu" );
+	$( ".global-search-form" ).clone().appendTo( "#mobile_menu" );
 	
 	$( "#mobile_menu .ql-list:nth-child(1) " ).after( '<div class="mobile_menu_sep"></div>' );
 	
