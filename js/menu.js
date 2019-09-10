@@ -2,7 +2,7 @@
 $(function() {
 	/* Burger Menu */
 	var out = '<div id="burger"><div></div><div></div><div></div></div>';
-	$( out ).appendTo( "body" );
+	$( out ).appendTo( ".site-banner .inside" );
 	
 	
 	/* menu mobile */
