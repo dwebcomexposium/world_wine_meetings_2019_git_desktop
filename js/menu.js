@@ -16,6 +16,8 @@ $(function() {
 	
 	$( "#mobile_menu .ql-list" ).after( '<div class="mobile_menu_sep"></div>' );
 	
+	$( ".site-footer .disclaimer" ).clone().appendTo( "#mobile_menu" );
+	
 	/* action */
 	$("#burger").click(function() {
 		  $( "#mobile_menu" ).fadeIn();
