@@ -1473,6 +1473,34 @@ a:hover {
 }
 /* FIN SEARCH RESULT */
 
+/* SITEMAP */
+.sitemap #main {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 680px;
+}
+
+.sitemap h1 {
+	font-family: Roboto-Black;
+	font-size: 34px;
+	font-weight: normal;
+	color: #A28B42;
+	border: none;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.sm-item-title {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: normal;
+	color: black;
+	border: none;
+}
+
+/* FIN SITEMAP */
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
