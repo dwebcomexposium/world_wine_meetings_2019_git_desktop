@@ -1027,6 +1027,138 @@ body {
 }
 /* FIN ARTICLE */
 
+/* SEARCH RESULT */
+.search #main {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-result {
+	min-height: 500px;
+	padding-top: 90px;
+}
+
+.search-result .main-title {
+	font-family: Roboto-Black;
+	font-size: 118px;
+	font-weight: normal;
+	text-align: center;
+	color: black;
+	line-height: 118px;
+	padding-top: 80px;
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+
+.search-result h2 {
+	color: black;
+	font-size: 16px;
+	font-family: Roboto;
+	font-weight: normal;
+	text-align: center;
+	border: none;
+	margin: 0px;
+	/* padding: 0px; */
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.search-result .gsf-fields {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	height: 46px;
+}
+
+.search-result .gsf-input {
+	color: black;
+	width: 100%;
+	border: none;
+}
+
+.search-result .gsf-submit-btn {
+	height: 30px;
+	min-height: 30px;
+	background-color: white;
+	color: black;
+	margin-top: 7px;
+	margin-bottom: auto;
+	border-left: 1px solid black;
+	background-size: 17px 18px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 50px;
+}
+
+.search-result .gsf-submit-text {
+	display: none;
+}
+
+.search-result .ep-form-wrap {
+	margin-top: 50px;
+}
+
+.search-result .tt-dropdown-menu {
+	top: auto;
+	margin-top: 15px;
+}
+
+.sr-main-title {
+	font-family: Roboto-Black;
+	font-size: 34px;
+	font-weight: normal;
+	border: none;
+	text-align: center;
+	color: black;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.sr-main-title .sr-term {
+	font-weight: normal;
+}
+
+.sr-term {
+	color: #A28B42;
+}
+
+.sr-noresult .sr-noresult-title {
+	color: #A28B42;
+}
+.sr-item{
+	border: none;
+	margin-bottom: 20px;
+	
+}
+.sr-item-title {
+	margin-bottom: 20px;
+}
+
+.sr-item-title a{
+	font-family: Roboto-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	color: #A28B42;
+	
+}
+.sr-item-title a:hover{
+	color: #A28B42;
+	text-decoration: none;
+	
+}
+.sr-item-title a::after {
+	background: #A28B42 none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 3px;
+	margin-top: 10px;
+	width: 20px;
+	/* margin: auto; */
+}
+/* FIN SEARCH RESULT */
+
 /* SOCIAL BAR */
 #social_bar {
 	width: 35px;
