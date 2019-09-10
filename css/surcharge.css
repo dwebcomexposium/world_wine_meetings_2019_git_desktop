@@ -123,6 +123,63 @@ a:hover {
 .content-list-bullet li::before {
 	background: #A28B42;
 }
+.article-focus:nth-child(1) h2 {
+	font-family: Roboto-Black;
+	font-size: 34px;
+	font-weight: normal;
+	text-align: center;
+	color: black;
+	border: none;
+}
+
+.block-page {
+	/*max-width: 1144px;*/
+	padding: 32px;
+}
+
+/* Liste producer .. */
+.externe {
+	text-decoration: underline;
+}
+
+.externe:hover {
+	text-decoration: underline;
+	color: #A28B42;
+}
+
+.article-focus ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	max-width: 1080px;
+	margin-bottom: 22px
+}
+
+.article-focus li {
+	min-width: 230px;
+	border-left: 2px solid #9e9c9d;
+	border-spacing: 0px;
+	font-family: "Roboto-Light";
+	font-size: 24px;
+	color: #1A1A1A;
+	padding-left: 15px;
+	height: 56px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+.article-focus li strong {
+	color: #A28B42;
+}
+
+.article-focus li a {
+	color: #1A1A1A;
+}
 /* FIN GENERAL */
 
 /* HEADER */
