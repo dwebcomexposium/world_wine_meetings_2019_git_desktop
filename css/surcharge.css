@@ -82,6 +82,183 @@ body {
 
 /* FIN GENERAL */
 
+
+/* HEADER */
+.logo {
+	background-image: url(img/world_wine_meetings_logo@2x.png);
+	background-size: 293px 120px;
+}
+
+.site-banner .gsf-trigger .icon-search {
+	background-image: url(img/loupe@2x.png);
+	background-size: 17px 18px;
+}
+
+.site-banner .gsf-trigger .icon-search:hover {
+	/*background-image: url(img/loupe_on@2x.png);
+	background-size: 17px 18px;*/
+	
+}
+
+.site-banner {
+	background-color: #1A1A1A;
+}
+
+.site-banner .inside {
+	padding: 0px;
+}
+
+.logo {
+	float: left;
+	width: 293px;
+	height: 120px;
+	display: inline-block;
+}
+
+.site-banner .inside div:nth-child(2) {
+	float: left;
+	padding-top: 39px;
+}
+
+.site-banner .inside div:nth-child(2) li .btn-primary {
+	font-family: Roboto-Black;
+	color: #A28B42;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.site-banner .inside div:nth-child(3) {
+	float: right;
+	margin-right: 48px;
+	padding-top: 10px;
+}
+
+.site-banner .inside div:nth-child(3) li {
+	display: inline-block;
+}
+
+.site-banner .inside div:nth-child(3) li .btn-primary {
+	color: white;
+	font-size: 11px;
+	font-family: "Roboto-Black";
+	padding-right: 20px;
+	border-right: 1px solid white;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 11px;
+}
+
+.site-banner .linkid758731 .btn-primary {
+	padding-left: 20px !important;
+}
+
+.site-banner .gsf-trigger {
+	display: block;
+	height: 18px;
+	padding-top: 25px;
+}
+
+.site-banner .global-search-form.is-visible .gsf-trigger, .site-banner .gsf-trigger:hover,
+	.site-banner .gsf-trigger:focus {
+	background: none;
+}
+
+.site-banner .global-search-form {
+	top: 0px;
+	right: 0px;
+}
+
+.icon-search::before {
+	content: none;
+}
+
+.site-banner .gsf-trigger .icon-search {
+	width: 17px;
+	height: 18px;
+	display: inline-block;
+}
+.site-banner .inside div:nth-child(3) {
+	padding-top: 20px;
+}
+
+.js .site-banner .gsf-fields {
+	position: relative;
+}
+
+.site-banner {
+	padding-right: 10px;
+}
+
+.site-banner .global-search-form {
+	padding-top: 10px;
+}
+
+.site-banner .gsf-fields {
+	background-color: white;
+	padding: 0px !important;
+	border: none;
+	height: 50px;
+	top: 20px;
+}
+
+.site-banner .gsf-submit-btn {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 4px;
+}
+
+.site-banner .gsf-submit-btn:hover {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.site-banner .gsf-submit-text {
+	font-size: 6px;
+}
+
+.site-banner .gsf-trigger {
+	padding-top: 16px;
+}
+
+.site-banner .gsf-input-line {
+	padding-top: 3px;
+}
+
+.site-banner .gsf-fields .gsf-input {
+	border-right: 1px solid black;
+}
+
+.site-banner .tt-dropdown-menu {
+	top: 0px;
+}
+
+.is-sticky .logo {
+	height: 70px;
+	background-position-y: -20px;
+}
+
+.is-sticky  .site-banner .inside div:nth-child(2) {
+	padding-top: 18px;
+}
+.site-banner .gsf-fields .typeahead-section-name {
+	color: black;
+	font-family: Roboto;
+	border: none;
+}
+.tt-suggestion{
+	clear: both;
+	padding-top: 0px!important;
+}
+.tt-suggestion a:hover, .tt-suggestion a:active, .tt-suggestion a:focus{
+	background-color: transparent;
+	color: inherit;
+}
+/* FIN HEADER */
+
+
 /* HOME */
 .front .article-focus * {
 	max-width: 1080px;
@@ -571,6 +748,96 @@ body {
 
 /* FIN GLOBAL */
 
+/* ARTICLE */
+.article .site-wrapper {
+	
+}
+
+.article .article-title {
+	background-color: #53130F;
+	margin-bottom: 0px;
+	padding-top: 75px;
+	min-height: 200px;
+}
+
+.article .article-title .at-publication {
+	display: none;
+}
+
+.article .article-title .at-main-title {
+	text-align: center;
+	color: white;
+	font-family: Roboto-Black;
+	font-size: 34px;
+	font-weight: normal;
+	text-align: center;
+	border: none;
+}
+
+.article .article-intro {
+	margin: 0px;
+	padding-left: 32px;
+	padding-right: 32px;
+	background-color: #53130F;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	padding-bottom: 100px;
+}
+
+.article .article-intro p {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article .article-content {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 40px;
+}
+
+.article .article-content h3 strong {
+	font-family: Roboto-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	color: #53130F;
+	border: none;
+}
+
+.article .article-content h3 strong::after {
+	background: #53130F none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 3px;
+	margin-top: 10px;
+	width: 20px;
+	/* margin: auto; */
+}
+
+.article p {
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.article-content ul li::before {
+	background: #53130F;
+}
+
+.social-sharing {
+	display: none;
+}
+
+.article-navigation {
+	display: none;
+}
+/* FIN ARTICLE */
 
 /* SOCIAL BAR */
 #social_bar{
@@ -607,100 +874,7 @@ body {
 
 /* FIN SOCIAL BAR */
 /* HEADER */
-.logo {
-	background-image: url(img/world_wine_meetings_logo@2x.png);
-	background-size: 293px 120px;
-}
 
-.site-banner .gsf-trigger .icon-search {
-	background-image: url(img/loupe@2x.png);
-	background-size: 17px 18px;
-}
-
-.site-banner .gsf-trigger .icon-search:hover {
-	/*background-image: url(img/loupe_on@2x.png);
-	background-size: 17px 18px;*/
-	
-}
-
-.site-banner {
-	background-color: #1A1A1A;
-}
-
-.site-banner .inside {
-	padding: 0px;
-}
-
-.logo {
-	float: left;
-	width: 293px;
-	height: 120px;
-	display: inline-block;
-}
-
-.site-banner .inside div:nth-child(2) {
-	float: left;
-	padding-top: 39px;
-}
-
-.site-banner .inside div:nth-child(2) li .btn-primary {
-	font-family: Roboto-Black;
-	color: #A28B42;
-	font-size: 16px;
-	text-transform: capitalize;
-}
-
-.site-banner .inside div:nth-child(3) {
-	float: right;
-	margin-right: 48px;
-	padding-top: 10px;
-}
-
-.site-banner .inside div:nth-child(3) li {
-	display: inline-block;
-}
-
-.site-banner .inside div:nth-child(3) li .btn-primary {
-	color: white;
-	font-size: 11px;
-	font-family: "Roboto-Black";
-	padding-right: 20px;
-	border-right: 1px solid white;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	line-height: 11px;
-}
-
-.site-banner .linkid758731 .btn-primary {
-	padding-left: 20px !important;
-}
-
-.site-banner .gsf-trigger {
-	display: block;
-	height: 18px;
-	padding-top: 25px;
-}
-
-.site-banner .global-search-form.is-visible .gsf-trigger, .site-banner .gsf-trigger:hover,
-	.site-banner .gsf-trigger:focus {
-	background: none;
-}
-
-.site-banner .global-search-form {
-	top: 0px;
-	right: 0px;
-}
-
-.icon-search::before {
-	content: none;
-}
-
-.site-banner .gsf-trigger .icon-search {
-	width: 17px;
-	height: 18px;
-	display: inline-block;
-}
 /* FIN HEADER */
 /*SOCIAL*/
 #social_linkedin{
