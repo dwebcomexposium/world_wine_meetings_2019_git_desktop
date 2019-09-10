@@ -121,4 +121,8 @@ $(document).ready(function() {
 });
 /* STICKY HEADER */
 
-
+/* trick contact */
+$(function() {
+	var detach  = $(".contact .cl-content div[itemprop='address']").detach();
+	$(".contact .cl-content .cl-item-title").before(detach);
+});
