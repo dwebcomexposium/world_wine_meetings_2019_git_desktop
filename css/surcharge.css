@@ -413,9 +413,14 @@ body {
 	margin-top: 15px;
 }
 /* FIN 404 */
-/* SEARCHE RESULT */
+/* SEARCH RESULT */
 .search-result .gsf-submit-btn {
 	background-image: url(img/loupe_on@2x.png);
 
 }
-/* FIN SEARCHE RESULT */
+/* FIN SEARCH RESULT */
+
+/* MOBILE MENU */
+#mobile_menu .gsf-submit-btn {
+	background-image: url(img/rond-search.png);
+}
