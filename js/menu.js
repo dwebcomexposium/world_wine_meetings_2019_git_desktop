@@ -14,7 +14,7 @@ $(function() {
 	
 	$( ".site-banner .global-search-form" ).clone().appendTo( "#mobile_menu" );
 	
-	$( "#mobile_menu .ql-list" ).after( '<div class="mobile_menu_sep"></div>' );
+	$( "#mobile_menu .ql-list:not(:last-child)" ).after( '<div class="mobile_menu_sep"></div>' );
 	
 	$( ".site-footer .disclaimer" ).clone().appendTo( "#mobile_menu" );
 	
