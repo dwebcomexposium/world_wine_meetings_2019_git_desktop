@@ -1653,6 +1653,12 @@ border-top: 1px solid #A28B42;
 		min-width: 100%;
 		width: 100%;
 	}
+	.site-footer .quicklinks ul li{
+		width: 100%;
+	}
+	.site-footer .quicklinks .btn-primary{
+		border: none;
+	}
 }
 
 @media only screen and (min-width: 768px) {
