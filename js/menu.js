@@ -14,7 +14,7 @@ $(function() {
 	
 	$( ".global-search-form .quicklinks .ql-list" ).clone().appendTo( "#mobile_menu" );
 	
-	$( ".site-banner .quicklinks:nth-child(1)" ).after( '<div class="mobile_menu_sep"></div>' );
+	$( "#mobile_menu .ql-list" ).after( '<div class="mobile_menu_sep"></div>' );
 	
 	/* action */
 	$("#burger").click(function() {
