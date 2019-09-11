@@ -1883,10 +1883,10 @@ a:hover {
 }
 
 .sm-item-title {
-	font-family: Roboto;
-	font-size: 30px;
+	font-family: Roboto-Bold;
+	font-size: 18px;
 	font-weight: normal;
-	color: #A28B42;
+	color: #53130F;
 	border: none;
 }
 .sitemap .sm-item-title::after {
