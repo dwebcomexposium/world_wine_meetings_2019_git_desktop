@@ -942,6 +942,9 @@ a:hover {
 	max-width: 1080px;
 	margin-top: 54px;
 	padding-top: 0px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .node1235852 .article-focus:nth-child(3) table {
