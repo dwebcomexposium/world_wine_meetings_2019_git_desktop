@@ -1659,6 +1659,9 @@ border-top: 1px solid #A28B42;
 	.site-footer .quicklinks .btn-primary{
 		border: none;
 	}
+	.node1235883 tbody td{
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width: 768px) {
