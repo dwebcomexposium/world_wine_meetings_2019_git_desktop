@@ -984,7 +984,9 @@ a:hover {
 	font-weight: normal;
 	line-height: 24px;
 }
-
+.node1235852 .article-focus:nth-child(3) table tr:first-child p {
+	margin-right: 35px;
+}
 .node1235852 .article-focus:nth-child(3) table tr:first-child p:first-child {
 	font-family: Roboto-Bold;
 	font-size: 19px;
