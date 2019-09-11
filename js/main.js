@@ -129,7 +129,8 @@ $(function() {
 
 /* trick programme */
 $(function() {
-	var detach1  = $(".node1235852 .article-focus:nth-child(3) table tr:nth-child(2) td:nth-child(1) ").detach();
+	
+	var detach1  = $(".node1235852 .article-focus:nth-child(3) table tr:nth-child(2) td:first-child").detach();
 	$(".node1235852 .article-focus:nth-child(3) table tr:first-child td:nth-child(1)").after(detach1);
 	
 	
