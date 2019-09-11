@@ -1663,9 +1663,7 @@ border-top: 1px solid #A28B42;
 		border: none;
 	}
 	
-	.node1235883 .list-articles .cxp-pagination .la-list .la-item{
-		max-width: 100%;
-	}
+	
 }
 
 @media only screen and (min-width: 768px) {
@@ -1674,6 +1672,9 @@ border-top: 1px solid #A28B42;
 	}
 	.node1235883 tbody td{
 		width: 100%;
+	}
+	.node1235883 .list-articles .cxp-pagination .la-list .la-item{
+		max-width: 100%;
 	}
 }
 /* FIN RESPONSIVE */
