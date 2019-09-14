@@ -145,4 +145,4 @@ $(function() {
 $(function() {
 	
 	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrapInner( "<p></p>");
-}
+});
