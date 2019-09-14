@@ -141,3 +141,8 @@ $(function() {
 	
 });
 
+/* trick p global*/
+$(function() {
+	
+	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrap();
+}
