@@ -1675,8 +1675,8 @@ a:hover {
 
 /* SOCIAL BAR */
 #social_bar {
-	width: 35px;
-	height: 140px;
+	width: 30px;
+	height: 80px;
 	background-color: #1A1A1A;
 	z-index: 10;
 	position: fixed;
@@ -1685,10 +1685,10 @@ a:hover {
 }
 
 #social_linkedin {
-	background-size: 23px 51px;
+	background-size: 13px 51px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	height: 51px;
+	height: 100%;
 	width: 100%;
 	cursor: pointer;
 	background-image: url(img/linkedin@2x.png);
