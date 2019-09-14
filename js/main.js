@@ -56,7 +56,7 @@ $(function() {
 	var out = '<div id="social_bar"><div id="social_linkedin"></div></div>';
 	$( out ).appendTo( "body" );
 	$( "#social_linkedin" ).click(function() {
-		var let = "http://www.linkedin.com";
+		var url = "http://www.linkedin.com";
 		window.open(url, '_blank');
 	});
 });
@@ -144,5 +144,5 @@ $(function() {
 /* trick p global*/
 $(function() {
 	
-	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrap();
+	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrapInner( "<p></p>");
 }
