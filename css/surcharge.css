@@ -1685,36 +1685,20 @@ a:hover {
 }
 
 #social_linkedin {
-	background-size: 18px 18px;
+	background-size: 23px 51px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	height: 40px;
+	height: 51px;
 	width: 100%;
 	cursor: pointer;
-}
-
-#social_newsletter {
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-}
-
-#social_newsletter a {
-	font-size: 12px;
-	line-height: 35px;
-	font-family: Roboto;
-	font-weight: bold;
-	color: white;
-	text-decoration: none;
+	background-image: url(img/linkedin@2x.png);
 }
 
 /* FIN SOCIAL BAR */
 /* HEADER */
 
 /* FIN HEADER */
-/*SOCIAL*/
-#social_linkedin {
-	background-image: url(img/social-linkedin.png);
-}
+
 /* FOOTER */
 .site-footer {
 	background: #1a1a1a;
