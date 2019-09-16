@@ -1306,6 +1306,27 @@ a:hover {
 	float: left;
 	padding-left: 50px;
 }
+.node1235852 .article-focus ul {
+	list-style: circle;
+	display: block;
+	padding-left: 50px;
+	float: left;
+	width: 50%
+}
+
+
+.node1235852 .article-focus ul:last-child {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	max-width: 1080px;
+	margin-bottom: 22px;
+}
 
 /* fin bloc 4*/
 /* FIN ABOUT */
