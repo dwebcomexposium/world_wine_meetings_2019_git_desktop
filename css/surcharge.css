@@ -729,7 +729,9 @@ a:hover {
 
 /* bloc 3 agenda */
 #agenda {
-	background-color: #3e3c3d
+	background-color: #3e3c3d;
+	background-image: url(img/background_home_agenda.jpg);
+	background-size: cover;
 }
 
 .container_agenda {
