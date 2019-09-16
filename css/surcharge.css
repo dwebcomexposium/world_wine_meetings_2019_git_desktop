@@ -420,7 +420,7 @@ a:hover {
 	text-transform: capitalize;
 }
 
-#mobile_menu ul:nth-child(2) li .btn-primary {
+#mobile_menu ul:nth-child(2)  {
 	margin-top: 80px;
 	margin-left: 10px;
 	font-family: Roboto-Bold;
