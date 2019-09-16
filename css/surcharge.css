@@ -901,7 +901,7 @@ a:hover {
 	text-align: left;
 	background-image: none !important;
 	height: auto !important;
-	margin-top: 100px !important;
+	
 }
 
 .node1235852 .article-focus:nth-child(2) h3 {
@@ -939,6 +939,8 @@ a:hover {
 	height: 390px;
 	overflow: hidden;
 	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
 }
 
 .node1235852 .article-focus:nth-child(2) p:nth-of-type(3) {
