@@ -2012,7 +2012,13 @@ a:hover {
 		display: none;
 	}
 }
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
 
+	.node1235883 .list-articles .cxp-pagination .la-list .la-item {
+		max-width: 50%;
+		min-width: 50%;
+	}
+}
 @media only screen and (max-width: 1080px) {
 	.node1235852 .article-focus:nth-child(3) table {
 		width: 100% !important;
@@ -2024,10 +2030,7 @@ a:hover {
 		width: 50%;
 		max-width: 50%;
 	}
-	.node1235883 .list-articles .cxp-pagination .la-list .la-item {
-		max-width: 50%;
-		min-width: 50%;
-	}
+
 }
 
 @media only screen and (max-width: 518px) {
