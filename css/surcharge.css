@@ -2019,4 +2019,9 @@ a:hover {
 		min-width: 33% !important;
 	}
 }
+@media only screen and (max-width: 518px) {
+	.node1235852 .article-focus:nth-child(2) .af-title{
+		line-height: 60px;
+	}
+}
 /* FIN RESPONSIVE */
