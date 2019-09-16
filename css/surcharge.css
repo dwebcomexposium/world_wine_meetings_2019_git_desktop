@@ -680,9 +680,9 @@ a:hover {
 	color: #A28B42;
 }
 
-.front .article-focus:nth-child(1) li a, .node1235852 .article-focus:nth-child(1) li a
-	{
+.front .article-focus:nth-child(1) li a, .node1235852 .article-focus:nth-child(1) li a{
 	color: white;
+	text-decoration: underline;
 }
 /* fin bloc 1 */
 
