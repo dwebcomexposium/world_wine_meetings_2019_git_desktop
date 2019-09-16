@@ -625,7 +625,7 @@ a:hover {
 
 .front .article-focus:nth-child(1) p:nth-of-type(6) a, .node1235852 .article-focus:nth-child(1) p:nth-of-type(6) a {
 	color: transparent;
-	background-image: url(img/world_wine_meetings_plus@2x.png);
+	background-image: url(img/world_wine_meetings_plus_@2x.png);
 	background-size: 32px 32px;
 	width: 32px;
 	height: 32px;
@@ -816,7 +816,7 @@ a:hover {
 }
 
 #agenda .plus {
-	background-image: url(img/world_wine_meetings_plus@2x.png);
+	background-image: url(img/world_wine_meetings_plus_@2x.png);
 	background-size: 32px 32px;
 	width: 32px;
 	height: 32px;
