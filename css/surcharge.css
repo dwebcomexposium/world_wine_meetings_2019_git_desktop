@@ -1171,7 +1171,7 @@ a:hover {
 /* fin bloc2 */
 /* bloc 3*/
 .node1235883 tbody, .node1235883 tbody tr {
-	display18: flex;
+	display: flex;
 	flex-wrap: wrap;
 }
 
