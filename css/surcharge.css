@@ -1300,7 +1300,11 @@ a:hover {
 	width: 50%;
 	float: left;
 }
-
+.node1235852 .article-focus:last-child p:first-child {
+	width: 0px;
+	float: left;
+	padding-left: 0px;
+}
 .node1235852 .article-focus:last-child p {
 	width: 49%;
 	float: left;
