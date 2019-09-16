@@ -1310,7 +1310,12 @@ a:hover {
 	float: left;
 	padding-left: 50px;
 }
-.node1235852 .article-focus ul {
+.node1235852 .article-focus:last-child iframe {
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+}
+.node1235852 .article-focus:last-child ul {
 	list-style: circle;
 	display: block;
 	padding-left: 50px;
