@@ -144,5 +144,5 @@ $(function() {
 /* trick p global*/
 $(function() {
 	
-	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrapInner( "<p></p>");
+	$(".node1235852 .article-focus:nth-child(2) p:nth-of-type(2)").wrapInner( '<p class="bloc2"></p>');
 });
