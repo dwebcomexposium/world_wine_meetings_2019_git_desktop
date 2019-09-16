@@ -877,6 +877,7 @@ a:hover {
 	font-weight: normal;
 	color: black;
 	text-align: left;
+	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 120px;
