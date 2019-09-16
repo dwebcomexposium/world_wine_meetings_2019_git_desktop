@@ -864,6 +864,7 @@ a:hover {
 	padding-right: 0px;
 	margin-top: 0px;
 	padding-bottom: 0px;
+	max-width: 1080px;
 }
 
 .node1235852 .article-focus:nth-child(2) * {
@@ -876,7 +877,6 @@ a:hover {
 	font-weight: normal;
 	color: black;
 	text-align: left;
-	width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 120px;
