@@ -128,6 +128,8 @@ $(function() {
 });
 
 /* trick programme */
+
+/*
 $(function() {
 	
 	var detach1  = $(".node1235852 .article-focus:nth-child(3) table tr:nth-child(2) td:first-child p").detach();
@@ -140,7 +142,7 @@ $(function() {
 	$(".node1235852 .article-focus:nth-child(3) table tr:first-child td:nth-child(3) p").after(detach3);
 	
 });
-
+*/
 /* trick p global*/
 $(function() {
 	
