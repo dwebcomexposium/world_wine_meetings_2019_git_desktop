@@ -895,14 +895,15 @@ a:hover {
 	background-size: 225px 224px;
 	background-position: 90% center;
 }
-.node1235852 .article-focus:nth-child(2) .bloc2{
+
+.node1235852 .article-focus:nth-child(2) .bloc2 {
 	width: 100% !important;
 	text-align: left;
-	background-image: none!important;
-	height: auto!important;
-	margin-top: 100px!important;
-
+	background-image: none !important;
+	height: auto !important;
+	margin-top: 100px !important;
 }
+
 .node1235852 .article-focus:nth-child(2) h3 {
 	width: 66%;
 	float: left;
@@ -976,19 +977,16 @@ a:hover {
 	min-width: 260px;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p:nth-child(2)
-	{
+.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p:nth-child(2){
 	font-size: 15px;
 	line-height: 24px;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p:nth-child(2) strong
-	{
+.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p:nth-child(2) strong	{
 	color: #A28B42;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:nth-child(2) td strong
-	{
+.node1235852 .article-focus:nth-child(3) table tr:nth-child(2) td strong{
 	margin-top: 30px;
 	display: inline-block;
 	color: #A28B42;
@@ -1003,8 +1001,7 @@ a:hover {
 	margin-right: 35px;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:first-child p:first-child
-	{
+.node1235852 .article-focus:nth-child(3) table tr:first-child p:first-child{
 	font-family: Roboto-Bold;
 	font-size: 19px;
 	color: #A28B42;
@@ -1015,8 +1012,7 @@ a:hover {
 	line-height: 40px;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p
-	{
+.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p {
 	font-family: Roboto;
 	font-size: 15px;
 	color: black;
@@ -1024,8 +1020,7 @@ a:hover {
 	padding-top: 30px;
 }
 
-.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p strong
-	{
+.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p strong	{
 	color: #A28B42;
 }
 /* fin bloc3 */
@@ -1898,6 +1893,7 @@ a:hover {
 	color: #A28B42;
 	border: none;
 }
+
 .sitemap .sm-item-title::after {
 	background: #A28B42 none repeat scroll 0 0;
 	content: "";
@@ -1984,7 +1980,6 @@ a:hover {
 		min-width: 100% !important;
 		margin-bottom: 20px;
 	}
-	
 	.node1235852 .article-focus:last-child table tbody td {
 		min-width: 100%;
 	}
@@ -2001,13 +1996,12 @@ a:hover {
 	}
 	.node1235852 .article-focus:last-child table td p {
 		padding-left: 0px;
-		
 	}
 	.node1235852 .article-focus:last-child table tr {
 		margin-bottom: 90px;
-		
 	}
 }
+
 @media only screen and (min-width: 768px) {
 	#burger {
 		display: none;
@@ -2021,6 +2015,5 @@ a:hover {
 	.node1235852 .article-focus:nth-child(3) table td {
 		min-width: 33% !important;
 	}
-
 }
 /* FIN RESPONSIVE */
