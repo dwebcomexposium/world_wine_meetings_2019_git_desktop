@@ -945,7 +945,84 @@ a:hover {
 	clear: both;
 }
 /* fin bloc 2 */
+/* bloc 3 */
+.node1235852 .article-focus:nth-child(3) {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1080px;
+	margin-top: 54px;
+	padding-top: 0px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.node1235852 .article-focus:nth-child(3) table {
+	width: auto !important;
+}
+.node1235852 .article-focus:nth-child(3) table tr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.node1235852 .article-focus:nth-child(3) .af-title {
+	width: 22%;
+	font-family: Roboto-Bold;
+	font-size: 30px;
+	color: #A28B42;
+	font-weight: normal;
+	line-height: 24px;
+	padding-bottom: 32px;
+	font-family: Roboto-Bold;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:first-child td {
+	min-width: 260px;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p{
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:nth-child(1) td p strong	{
+	margin-top: 0px;
+	display: inline-block;
+	color: #A28B42;
+	font-size: 15px;
+	line-height: 24px;
+	font-family: Roboto-Bold;
+	font-weight: normal;
+	
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:first-child p {
+	margin-right: 35px;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:first-child p:first-child{
+	font-family: Roboto-Bold;
+	font-size: 19px;
+	color: #A28B42;
+	font-weight: normal;
+	border-bottom: 1px solid #A28B42;
+	border-top: 1px solid #A28B42;
+	margin-right: 35px;
+	line-height: 40px;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p {
+	font-family: Roboto;
+	font-size: 15px;
+	color: black;
+	line-height: 24px;
+	padding-top: 30px;
+}
+
+.node1235852 .article-focus:nth-child(3) table tr:not (:first-child ) p strong	{
+	color: #A28B42;
+}
+/* fin bloc3 */
 
 
 /* bloc 4 CHIFFRES */
