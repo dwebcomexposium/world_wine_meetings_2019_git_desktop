@@ -630,8 +630,7 @@ a:hover {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	margin-top: 20px;
 }
 
 .front .article-focus:nth-child(1) p:nth-of-type(6) a:hover, .node1235852 .article-focus:nth-child(1) p:nth-of-type(6) a:hover {
