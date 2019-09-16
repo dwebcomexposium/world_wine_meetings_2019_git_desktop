@@ -2017,6 +2017,11 @@ a:hover {
 	.node1235852 .article-focus:nth-child(3) table td {
 		min-width: 33% !important;
 	}
+	.front .article-focus:nth-child(1) p, .front .article-focus:nth-child(1) h4, .node1235852 .article-focus:nth-child(1) p, .node1235852 .article-focus:nth-child(1) h4{
+	width:50%;
+	max-width: 50%;
+
+	}
 }
 @media only screen and (max-width: 518px) {
 	.node1235852 .article-focus:nth-child(2) .af-title{
