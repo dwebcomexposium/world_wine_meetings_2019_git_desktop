@@ -879,7 +879,7 @@ a:hover {
 	font-weight: normal;
 	color: black;
 	text-align: left;
-	mix-width: 1080px;
+	min-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 120px;
