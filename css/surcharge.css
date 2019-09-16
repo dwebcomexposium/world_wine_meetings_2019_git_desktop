@@ -565,8 +565,7 @@ a:hover {
 	margin-bottom: 0px;
 }
 
-.front .article-focus:nth-child(1) .af-title, .node1235852 .article-focus:nth-child(1) .af-title
-	{
+.front .article-focus:nth-child(1) .af-title, .node1235852 .article-focus:nth-child(1) .af-title{
 	float: left;
 	width: 40%;
 	height: 383px;
@@ -577,10 +576,9 @@ a:hover {
 	max-width: 683px;
 }
 
-.front .article-focus:nth-child(1) p, .front .article-focus:nth-child(1) h4,
-	.node1235852 .article-focus:nth-child(1) p, .node1235852 .article-focus:nth-child(1) h4
-	{
-	width: 540px;
+.front .article-focus:nth-child(1) p, .front .article-focus:nth-child(1) h4, .node1235852 .article-focus:nth-child(1) p, .node1235852 .article-focus:nth-child(1) h4{
+	width:50%;
+	max-width: 540px;
 	margin-left: 50%;
 	margin-right: 50%;
 	margin-top: 0px;
@@ -1927,11 +1925,10 @@ a:hover {
 		{
 		display: none;
 	}
-	.front .article-focus:nth-child(1) p, .front .article-focus:nth-child(1) h4,
-		.node1235852 .article-focus:nth-child(1) p, .node1235852 .article-focus:nth-child(1) h4
-		{
+	.front .article-focus:nth-child(1) p, .front .article-focus:nth-child(1) h4, .node1235852 .article-focus:nth-child(1) p, .node1235852 .article-focus:nth-child(1) h4{
 		margin: 0px;
 		width: 100%;
+		max-width: 100%
 	}
 	.agenda_left_column, .agenda_right_column {
 		width: 100%;
