@@ -185,6 +185,7 @@ a:hover {
 
 .article-focus li a {
 	color: #1A1A1A;
+	text-decoration: underline;
 }
 /* FIN GENERAL */
 
