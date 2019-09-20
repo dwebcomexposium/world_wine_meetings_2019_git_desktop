@@ -56,7 +56,7 @@ $(function() {
 	var out = '<div id="social_bar"><div id="social_linkedin"></div></div>';
 	$( out ).appendTo( "body" );
 	$( "#social_linkedin" ).click(function() {
-		var url = "http://www.linkedin.com";
+		var url = "https://www.linkedin.com/company/world-wine-meetings/?viewAsMember=true";
 		window.open(url, '_blank');
 	});
 });
